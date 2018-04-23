@@ -1,0 +1,16 @@
+/*
+  THIS IS CSS FORMATING FOR PARALLAX PLUGIN
+*/
+
+.parallax-window {
+    background: transparent;
+}
+
+.parallax-window-img1 {
+    min-height: 100vh;
+    background-color: rgba(30, 30, 30, 0.65);
+}
+
+.parallax-window-img2 {
+    min-height: 700px;
+}

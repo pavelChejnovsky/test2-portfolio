@@ -1,0 +1,25 @@
+{
+  "name": "bs4starter",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 workflow",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Paul Chejnovsky",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "meow": "^4.0.0",
+    "popper.js": "^1.13.0",
+    "set-default-browser": "^1.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "mocha": "^5.1.0"
+  }
+}
