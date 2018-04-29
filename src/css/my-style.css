@@ -1,9 +1,14 @@
 /*
   My css style
+
+  1.Home style settings
+  2.Skills style settings
+  3.Reference style settings
+  4.Contact style settings
 */
 
 /*
-  Header style settings
+  Home style settings
 */
 
 .header-overlay {
@@ -15,5 +20,17 @@
 }
 
 /*
-  Pexeso style settings
+   Skills style settings
 */
+
+#skills .about-me > p {
+  font-size:1.5em;
+}
+
+/*
+   Reference style settings
+*/
+
+#reference {
+  overflow:hidden;
+}
