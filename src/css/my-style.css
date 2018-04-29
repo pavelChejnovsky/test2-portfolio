@@ -7,9 +7,11 @@
   4.Contact style settings
 */
 
+
 /*
-  Home style settings
+  1.Home style settings
 */
+
 
 .header-overlay {
   min-height: 100vh;
@@ -19,18 +21,29 @@
   opacity: 0.5;
 }
 
+
 /*
-   Skills style settings
+   2.Skills style settings
 */
 
 #skills .about-me > p {
   font-size:1.5em;
 }
 
+
 /*
-   Reference style settings
+   3.Reference style settings
 */
 
 #reference {
   overflow:hidden;
+  max-height: 100%;
+}
+
+/* pexeso styling */
+
+#gameboard .gameTile > img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
 }

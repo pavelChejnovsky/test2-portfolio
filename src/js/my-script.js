@@ -43,8 +43,8 @@ function startGame() {
 
 
 function buildArray() {
-  for (var x = 1; x < 7; x++) {
-    tileImages.push(x + '.jpg');
+  for (var x = 1; x < 6; x++) {
+    tileImages.push(x);
   }
 }
 
@@ -64,7 +64,7 @@ function buildBoard() {
   tileArray.forEach(function(element) {
     x++;
     gameBoardHTML += '<div class="gameTile">';
-    gameBoardHTML += '<img id="card' + x + '" src="guessimage.jpg" onclick="pickCard(' + (x - 1) + ',this)" class="flipImage"></div>';
+    gameBoardHTML += '<img id="card' + x + '" src="../img/reference/pexeso/guessimage.png" onclick="pickCard(' + (x - 1) + ',this)" class="flipImage"></div>';
   });
   gameBoard.innerHTML = gameBoardHTML;
 }
@@ -112,7 +112,7 @@ function isInArray(v, array) {
 }
 
 function cardFlip(idPick, target) {
-  target.src = "picture" + tileArray[idPick] + ".jpg";
+  target.src = "../img/reference/pexeso/picture" + tileArray[idPick] + ".png";
   tileFlippedOver.push(target.id);
 }
 
@@ -132,7 +132,7 @@ function gameOver() {
 function hideCard() {
   for (var x = 0; x < 2; x++) {
     var hideIDCard = tileFlippedOver.pop();
-    document.getElementById(hideIDCard).src = 'guessimage.jpg';
+    document.getElementById(hideIDCard).src = '../img/reference/pexeso/guessimage.png';
   }
   clearInterval(timer);
   cardFlipped = -1;
